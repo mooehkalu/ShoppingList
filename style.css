@@ -171,7 +171,7 @@ a:active {
 body {
     font: 14px/21px"Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
   	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-	background-size: 500% 500%;
+	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
@@ -266,7 +266,7 @@ input#adds {
     margin-right:5px;
     margin-left:10px;
      margin-top:5px;
-	border-radius: 5px;
+	border-radius: 2px;
     background-color: #f44165;
      color: black;
       font-size:smaller;
@@ -281,8 +281,8 @@ input[type=button] {
     border: none;
     border-radius: 2px;
     color: white;
-    width: 20%;
-    height:30px;
+    width: 100%;
+    height:25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -299,7 +299,7 @@ input[type=button]:hover {
 }
 
 input[type=text] {
-    width: 30%;
+    width: 100%;
     padding: 10px 20px;
     margin: 8px 0;
     box-sizing: border-box;
