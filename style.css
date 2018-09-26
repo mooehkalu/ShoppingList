@@ -171,7 +171,7 @@ a:active {
 body {
     font: 14px/21px"Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
   	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-	background-size: 400% 400%;
+	background-size: 500% 500%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
@@ -226,7 +226,7 @@ label {
     text-indent: 5px;
 }
 #wrapper {
-    width:300px;
+    width:500px;
     margin:20px auto;
     padding:20px;
     border-radius: 5px 5px 0 0;
