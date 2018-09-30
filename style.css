@@ -322,7 +322,7 @@ li {
     margin:5px 0px;
     line-height:1.6;
     padding:10px;
-    border:white solid 1px;
+   border: 1px solid #ccc;
 }
 li:nth-child(odd) {
     background: #ccc;
