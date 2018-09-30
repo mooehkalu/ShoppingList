@@ -94,12 +94,12 @@
 
 .bubble {
   background-color: none;
-  filter:blur(2px);
+  filter:blur(3px);
   opacity: 0;
   border-radius: 100%;
   width: 50px;
   height: 50px;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1), inset 0px 0px 0px 0px rgba(255, 255, 255, 1);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1), inset 0px 0px 0px 0px rgba(255, 255, 255, 1);
 }
 
 .bubble-animation-x {
@@ -322,7 +322,7 @@ li {
     margin:5px 0px;
     line-height:1.6;
     padding:10px;
-    border:#222 solid 1px;
+    border:white solid 1px;
 }
 li:nth-child(odd) {
     background: #ccc;
