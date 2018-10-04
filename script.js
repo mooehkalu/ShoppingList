@@ -170,7 +170,7 @@ function changeShoppingCart(position) {
     var e1 = arrays[0];
    var e2 = arrays[1];
  var ReplacedAmount = e2.replace(/\$/g,'');
-  var eitem = prompt("Please enter new item", e1);
+  var eitem = prompt("Please enter new item");
   //var ecost = prompt("Please enter your name", ReplacedAmount);
   addtocart[position] = eitem ;
   displayShoppinglists();
