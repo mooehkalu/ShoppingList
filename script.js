@@ -150,7 +150,7 @@ var addtocart = [];
 function changeShoppinglist(position) {
   //document.getElementById("MyList").innerHTML = shoppinglist[position];
   var arrays = shoppinglist[position];
-  arrays = arrays.split(",");
+ // arrays = arrays.split(",");
     var e1 = arrays[0];
    var e2 = arrays[1];
  var ReplacedAmount = e2.replace(/\$/g,'');
@@ -233,7 +233,7 @@ function addShoppinglist(item,cost) {
     //add to groc string from object array item
     groc += MyItems[x];
     if (count===0){
-      groc += ", ";
+      groc += " ";
     }
     //increment count by 1
    count++;
