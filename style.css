@@ -263,6 +263,22 @@ input#remove:hover {
     background-color: #ff8566;
 }
 
+input#edit {
+    float:right;
+    margin-bottom:20px;
+    margin-right:5px;
+    border-radius: 5px;
+    background-color: 	#00b300;
+     color: #ffffff;
+     font-size:smaller;
+      width: 65px;
+      cursor: pointer;
+}
+
+input#edit:hover {
+    background-color: #ff8566;
+}
+
 input#adds {
     float:left;
     margin-bottom:10px;
