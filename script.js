@@ -248,7 +248,7 @@ var arrayLength = shoppinglist.length;
 for (var i = 0; i < shoppinglist.length; i++) {
   //v 3.1 change button name to btndelete
 var btndelete =  ' <input class="button" id="remove" name="delete" type="button" value="Remove" onclick="deleteShoppinglists(' + i + ')" />';
-var btnupdate =  ' <input class="button" name="edit" type="button" value="Edit Item" onclick="changeShoppinglist(' + i + ')" />';
+var btnupdate =  ' <input class="button" id="edit" name="edit" type="button" value="Edit Item" onclick="changeShoppinglist(' + i + ')" />';
 //v 3.1 add edit button using below i index & name it btnpdate
 var arrays = shoppinglist[i];
 arrays = "'"+arrays+"'";
