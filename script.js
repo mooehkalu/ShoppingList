@@ -146,18 +146,21 @@ var shoppinglist = [];
 //v 3.1 addtocart empty array
 var addtocart = [];
 
+//v3.1
 function changeShoppinglist(position) {
   //document.getElementById("MyList").innerHTML = shoppinglist[position];
   var arrays = shoppinglist[position];
-  //arrays = arrays.split(",");
+  arrays = arrays.split(",");
     var e1 = arrays[0];
    var e2 = arrays[1];
- var ReplacedAmount = e2.replace(/\$/g);
-  var eitem = prompt("Please enter new item");
-  //var ecost = prompt("Please enter your name", ReplacedAmount);
-  shoppinglist[position] = eitem ;
+ var ReplacedAmount = e2.replace(/\$/g,'');
+  var eitem = prompt("Please enter new item", e1);
+  var ecost = prompt("Please enter your name", ReplacedAmount);
+  shoppinglist[position] = eitem + "," + '$' + ecost;
   displayShoppinglists();
-  displayShoppingCart() 
+  displayShoppingCart();
+  //v 4.0 save cookie
+  savecookie();
 }
 
 //v3.1
@@ -167,12 +170,14 @@ function changeShoppingCart(position) {
   arrays = arrays.split(",");
     var e1 = arrays[0];
    var e2 = arrays[1];
- var ReplacedAmount = e2.replace(/\$/g);
-  var eitem = prompt("Please enter new item");
-  //var ecost = prompt("Please enter your name", ReplacedAmount);
-  addtocart[position] = eitem ;
+ var ReplacedAmount = e2.replace(/\$/g,'');
+  var eitem = prompt("Please enter new item", e1);
+  var ecost = prompt("Please enter your name", ReplacedAmount);
+  addtocart[position] = eitem + "," + '$' + ecost;
   displayShoppinglists();
-  displayShoppingCart() 
+  displayShoppingCart();
+  //v 4.0 save cookie
+   savecookie();
 }
 
 //v3.1 
@@ -188,6 +193,7 @@ function addbacktoshoppinglist(item,num) {
   //v 4.0 save cookie
    savecookie();
 }
+
 
 //v 3.1 Update function addShoppinglist by adding objects
 function addtoshopcart(item, num) {
