@@ -52,7 +52,7 @@ function share()
 }
 //v4.1 prompt message to copy URL
 function copyToClipboard(text) {
-   window.prompt("Copy & Share List!", text);
+   window.prompt("Copy & Share List!", http://bit.ly/2ymQAGf);
 }
 
 window.onload = function() {
