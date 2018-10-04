@@ -18,8 +18,8 @@ function passlist()
 {
    var getshorturl=0;
    var login = "o_3iokgmm945";
-   var api_key = "R_f2f3c9387a374e3fc6bf4b1ec2c945c4";
-   var long_url = "https://rvclist.github.io/index.html?list="+ shoppinglist;
+   var api_key = "a56fe48687778622ea2e5156554dfd4df5bd3246";
+   var long_url = "https://mooehkalu.github.io/ShoppingList/index.html?list="+ shoppinglist;
   try{
   $.getJSON(
              "https://api-ssl.bitly.com/v3/shorten?callback=?", 
