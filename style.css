@@ -357,7 +357,7 @@ form a:hover {
     text-shadow: 0 -1px 0 #1D5837;
 }
 #labels {
-     margin:2px; text-align:center;font-size: 15px; font-weight: bold; font-size: 25px;color: #eee;
+     margin:2px; text-align:center;font-size: 12px; font-weight: bold; font-size: 25px;color: #eee;
 }
 
 form a:active {
