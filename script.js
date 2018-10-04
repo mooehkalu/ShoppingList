@@ -227,6 +227,7 @@ function addShoppinglist(item) {
 }
 
 
+
 //v 3.1 Update function addShoppinglist by adding objects
 function addShoppinglist(item,cost) {
   //v 3.0 declare variable for groc string
