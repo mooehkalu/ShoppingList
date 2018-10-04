@@ -164,15 +164,15 @@ function changeShoppinglist(position) {
 
 //v3.1
 function changeShoppingCart(position) {
-  document.getElementById("MyCart").innerHTML = shoppinglist[position];
+  //document.getElementById("MyCart").innerHTML = shoppinglist[position];
   var arrays = addtocart[position];
-  arrays = arrays.split(",");
+  //arrays = arrays.split(",");
     var e1 = arrays[0];
    var e2 = arrays[1];
  var ReplacedAmount = e2.replace(/\$/g,'');
   var eitem = prompt("Please enter new item", e1);
-  var ecost = prompt("Please enter your name", ReplacedAmount);
-  addtocart[position] = eitem + "," + '$' + ecost;
+  //var ecost = prompt("Please enter your name", ReplacedAmount);
+  addtocart[position] = eitem ;
   displayShoppinglists();
   displayShoppingCart();
   //v 4.0 save cookie
