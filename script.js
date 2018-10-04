@@ -32,14 +32,14 @@ function passlist()
              function(response)
              {
                 getshorturl = 1;
-                document.getElementById("sharelist").innerHTML = 'Share List:\n' + "http://bit.ly/2ymQAGf";
+                document.getElementById("sharelist").innerHTML = 'Copied:\n' + "http://bit.ly/2ymQAGf";
                 copyToClipboard(response.data.url);
                 // copyToClipboard('sharelist');
                  //alert("ShoppingList URL Copied");
              });
   } catch(err) {
    //alert("Error : "+ err);
-    document.getElementById("sharelist").innerHTML = 'Share List:\n' + long_url;
+    document.getElementById("sharelist").innerHTML = 'Copied:\n' + long_url;
     //copyToClipboard("sharelist");
     copyToClipboard(long_url);
     //alert("ShoppingList URL Copied");
