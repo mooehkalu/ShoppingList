@@ -155,7 +155,7 @@ function changeShoppinglist(position) {
  var ReplacedAmount = e2.replace(/\$/g,'');
   var eitem = prompt("Please enter new item");
   //var ecost = prompt("Please enter your name", ReplacedAmount);
-  shoppinglist[position] = eitem + "," + '$' + ecost;
+  shoppinglist[position] = eitem ;
   displayShoppinglists();
   displayShoppingCart() 
   //v 4.0 save cookie
