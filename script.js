@@ -237,9 +237,7 @@ function addShoppinglist(item) {
 //v 3.1 Update function addShoppinglist by adding objects
 function addShoppinglist(item,cost) {
      if (item != "")
-  {
-  document.getElementById("sharelist").innerHTML = ' ';
-      alert("Item Description Required: Please enter now :)");
+  
   //v 3.0 declare variable for groc string
   var groc="";
   //v 3.0 v 3.0 declare variable for loop count
