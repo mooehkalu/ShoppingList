@@ -22,7 +22,7 @@ function passlist()
    var long_url = "https://rvclist.github.io/index.html?list="+ shoppinglist;
   try{
   $.getJSON(
-             "https://api-ssl.bitly.com/v3/shorten?callback=?",
+             "https://api-ssl.bitly.com/v3/shorten?callback=?", 
               {
              "format": "json",
               "apiKey": api_key,
@@ -254,7 +254,7 @@ var arrays = shoppinglist[i];
 arrays = "'"+arrays+"'";
 var btnaddcart =  '<input name="add" type="checkbox" id="adds" value="Add to Shopping Cart" onclick="addtoshopcart('+arrays+','+ i +')" />';
 var btnsharelist = '<input class="button" id="shares" name="shares" type="submit" value="Share Shopping List" onclick="share()" />';
-TheRow = '<li>' + shoppinglist[i] + btndelete + ' '  + btnaddcart + '</li>';
+TheRow = '<li>' + shoppinglist[i] + btnupdate + ' '  + btnaddcart + '</li>';
 TheList += TheRow;
 }
 //v3.1 add Title
