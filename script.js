@@ -150,7 +150,7 @@ var addtocart = [];
 function changeShoppinglist(position) {
   //document.getElementById("MyList").innerHTML = shoppinglist[position];
   var arrays = shoppinglist[position];
-  //arrays = arrays.split(",");
+  arrays = arrays.split(",");
     var e1 = arrays[0];
    //var e2 = arrays[1];
  //var ReplacedAmount = e2.replace(/\$/g,'');
