@@ -339,7 +339,7 @@ if (arrayLength > 0)
 
 $(document).ready(function(){
     $(".button").click(function(){
-        $("MyCart").fadeOut()
+        $("MyCart").fadeOut("slow")
     });
   
 });
