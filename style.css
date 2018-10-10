@@ -292,7 +292,7 @@ input#adds {
 }
 
 #shares {
-  background-color:rgba(0, 0, 0, 0.3); 
+  background-color:rgba(0, 0, 0, 0.1); 
     color: #eee; 
     border: 2px solid #008CBA;
     border-radius: 2px;
@@ -302,7 +302,7 @@ input#adds {
     text-decoration: none;
     display: inline-block;
     font-size: 13px;
-   
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -317,7 +317,7 @@ input#adds {
 
 
 input#about {
-  background-color:rgba(0, 0, 0, 0.3); 
+  background-color:rgba(0, 0, 0, 0.1); 
     color: #eee; 
     border: 2px solid #008CBA;
     border-radius: 2px;
@@ -327,7 +327,7 @@ input#about {
     text-decoration: none;
     display: inline-block;
     font-size: 13px;
-   
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
