@@ -293,7 +293,7 @@ input#adds {
 
 #shares {
    background-color: #F0FFFF; 
-    opacity: 0.5;
+    opacity: 0.1;
     color: black; 
     border: 2px solid #008CBA;
     border-radius: 2px;
@@ -319,7 +319,7 @@ input#adds {
 
 input#about {
    background-color: #F0FFFF; 
-    opacity: 1.5;
+    opacity: 0.1;
     color: white; 
     border-radius: 2px;
     width: 100%;
