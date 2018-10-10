@@ -292,8 +292,8 @@ input#adds {
 }
 
 #shares {
-   background-color: white; 
-    color: black; 
+   background-color: #ccc; 
+    color: #000; 
     border: 2px solid #4CAF50;
     border-radius: 2px;
     width: 100%;
@@ -317,8 +317,8 @@ input#adds {
 
 
 input#about {
-   background-color: white; 
-    color: black; 
+   background-color: #ccc; 
+    color: #000; 
     border: 2px solid #4CAF50;
     border-radius: 2px;
     width: 100%;
