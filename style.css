@@ -370,7 +370,7 @@ input[type=text] {
     padding: 15px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 2px solid green;
+    border: 2px solid #eee;
     border-radius: 4px;
 }
 
