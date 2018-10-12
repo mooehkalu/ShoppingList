@@ -285,14 +285,14 @@ input#adds {
     margin-left:10px;
      margin-top:5px;
 	border-radius: 2px;
-    background-color: #f44165;
+    background-color: #007d00;
      color: black;
       font-size:smaller;
       cursor: pointer;
 }
 
 #shares {
- background-color: #006b00;
+ background-color: #007d00;
     color: #eee; 
     border: 2px solid #005900;
     border-radius: 2px;
@@ -317,7 +317,7 @@ input#adds {
 
 
 input#about {
-background-color: #006b00;
+background-color: #007d00;
     color: #eee; 
     border: 2px solid #006b00;
     border-radius: 2px;
