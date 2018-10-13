@@ -366,12 +366,12 @@ input[type=button]:hover {
 }
 
 input[type=text] {
-    background-color: #E7E7E7;
+    background-color: #eeeeee;
     width: 100%;
     padding: 15px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 2px solid #eeeeee;
+    border: 2px solid #E7E7E7;
     border-radius: 4px;
 }
 
