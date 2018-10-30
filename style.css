@@ -240,12 +240,12 @@ h1 {
     text-align:center;
 }
 
-input#btnSubmit {font-size: 16px; height: 40px;    -webkit-appearance: none;}
+input#btnSubmit {font-size: 16px; height: 40px;   }
 
 input#item {
     float:left;
     margin-bottom:5px;
-	   -webkit-appearance: none;
+	  
 }
 input#remove {
     float:right;
@@ -257,7 +257,7 @@ input#remove {
      font-size:smaller;
       width: 65px;
       cursor: pointer;
-	   -webkit-appearance: none;
+	  
 }
 
 input#remove:hover {
@@ -274,7 +274,7 @@ input#edit {
      font-size:smaller;
       width: 65px;
       cursor: pointer;
-	   -webkit-appearance: none;
+	   
 }
 
 input#edit:hover {
@@ -292,7 +292,7 @@ input#adds {
      color: black;
       font-size:smaller;
       cursor: pointer;
-	   -webkit-appearance: none;
+	  
 }
 
 #shares {
@@ -310,7 +310,7 @@ input#adds {
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-	   -webkit-appearance: none;
+	   
 }
 
 #shares:hover {
@@ -336,7 +336,7 @@ background-color: #008f00;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-	   -webkit-appearance: none;
+	   
 }
 
 input#about:hover {
@@ -361,7 +361,7 @@ input[type=button] {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-    
+    -webkit-appearance: none;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
