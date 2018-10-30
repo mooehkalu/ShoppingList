@@ -98,7 +98,7 @@
   border-radius: 100%;
   width: 50px;
   height: 50px;
-  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1), inset 0px 0px 0px 0px rgba(255, 255, 255, 1);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3), inset 0px 0px 0px 0px rgba(255, 255, 255, 1);
 }
 
 .bubble-animation-x {
@@ -240,11 +240,12 @@ h1 {
     text-align:center;
 }
 
-input#btnSubmit {font-size: 16px; height: 40px;}
+input#btnSubmit {font-size: 16px; height: 40px;    -webkit-appearance: none;}
 
 input#item {
     float:left;
     margin-bottom:5px;
+	   -webkit-appearance: none;
 }
 input#remove {
     float:right;
@@ -256,6 +257,7 @@ input#remove {
      font-size:smaller;
       width: 65px;
       cursor: pointer;
+	   -webkit-appearance: none;
 }
 
 input#remove:hover {
@@ -272,6 +274,7 @@ input#edit {
      font-size:smaller;
       width: 65px;
       cursor: pointer;
+	   -webkit-appearance: none;
 }
 
 input#edit:hover {
@@ -289,6 +292,7 @@ input#adds {
      color: black;
       font-size:smaller;
       cursor: pointer;
+	   -webkit-appearance: none;
 }
 
 #shares {
@@ -306,6 +310,7 @@ input#adds {
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+	   -webkit-appearance: none;
 }
 
 #shares:hover {
@@ -331,6 +336,7 @@ background-color: #008f00;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+	   -webkit-appearance: none;
 }
 
 input#about:hover {
@@ -342,6 +348,7 @@ input#about:hover {
 
 input[type=checkbox] {
     vertical-align:middle;
+	   -webkit-appearance: none;
 }
 input[type=button] {
     background-color: #008f00; /* Green */
@@ -354,7 +361,7 @@ input[type=button] {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-   
+      -webkit-appearance: none;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
