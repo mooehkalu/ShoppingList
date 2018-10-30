@@ -348,7 +348,7 @@ input#about:hover {
 
 input[type=checkbox] {
     vertical-align:middle;
-	   -webkit-appearance: none;
+	 
 }
 input[type=button] {
     background-color: #008f00; /* Green */
