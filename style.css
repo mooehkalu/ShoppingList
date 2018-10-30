@@ -361,7 +361,7 @@ input[type=button] {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-      -webkit-appearance: none;
+    
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
