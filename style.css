@@ -310,7 +310,7 @@ input#adds {
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-	   
+	    -webkit-appearance: none;
 }
 
 #shares:hover {
@@ -336,7 +336,7 @@ background-color: #008f00;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-	   
+	 -webkit-appearance: none;   
 }
 
 input#about:hover {
