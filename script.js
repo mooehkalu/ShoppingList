@@ -55,7 +55,7 @@ function copyToClipboard(text) {
    window.prompt("Copy & Share List!", "http://bit.ly/2ymQAGf");
 }
 
-wind/*ow.onload = function() {
+window.onload = function() {
     alert("Welcome to 'Shopping List' App!\n\nCreated by Moo\n**Javascript**\n\nQuestions?");
     populateshoppinglistonload();
     displayShoppinglists();
@@ -67,7 +67,7 @@ function about()
     alert("Welcome to 'Shopping List' App!\n\nCreated by Moo\n**Javascript**\n\nQuestions?");
     
 }
-*/
+
 
 
 //read cookie and return
