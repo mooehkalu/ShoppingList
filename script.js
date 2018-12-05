@@ -50,6 +50,7 @@ function share()
 {
    passlist();
 }
+/*
 //v4.1 prompt message to copy URL
 function copyToClipboard(text) {
    window.prompt("Copy & Share List!", "http://bit.ly/2ymQAGf");
@@ -68,7 +69,7 @@ function about()
     
 }
 
-
+*/
 
 //read cookie and return
 function readCookie(name) {
@@ -293,8 +294,8 @@ var btnupdate =  ' <input class="button" id="edit" name="edit" type="button" val
 //v 3.1 add edit button using below i index & name it btnpdate
 var arrays = shoppinglist[i];
 arrays = "'"+arrays+"'";
-var btnaddcart =  '<input name="add" type="checkbox" id="adds" value="Add to Shopping Cart" onclick="addtoshopcart('+arrays+','+ i +')" />';
-var btnsharelist = '<input class="button" id="shares" name="shares" type="submit" value="Share Shopping List" onclick="share()" />';
+//var btnaddcart =  '<input name="add" type="checkbox" id="adds" value="Add to Shopping Cart" onclick="addtoshopcart('+arrays+','+ i +')" />';
+//var btnsharelist = '<input class="button" id="shares" name="shares" type="submit" value="Share Shopping List" onclick="share()" />';
 TheRow = '<li>' + shoppinglist[i] + btnupdate + ' '  + btnaddcart + '</li>';
 TheList += TheRow;
 }
